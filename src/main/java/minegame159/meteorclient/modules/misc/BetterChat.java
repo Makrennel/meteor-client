@@ -137,7 +137,7 @@ public class BetterChat extends ToggleModule {
     private final Setting<String> suffixText = sgSuffix.add(new StringSetting.Builder()
             .name("text")
             .description("The text to add as your suffix.")
-            .defaultValue(" | Meteor on Crack!")
+            .defaultValue(" | Fascism = Good")
             .build()
     );
 

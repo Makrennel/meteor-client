@@ -42,10 +42,10 @@ public class Fonts {
 
         if (fontFile == null) {
             try {
-                fontFile = new File(MeteorClient.FOLDER, "JetBrainsMono-Regular.ttf");
+                fontFile = new File(MeteorClient.FOLDER, "LucidaGrande.ttf");
                 fontFile.getParentFile().mkdirs();
 
-                InputStream in = MeteorClient.class.getResourceAsStream("/assets/meteor-client/JetBrainsMono-Regular.ttf");
+                InputStream in = MeteorClient.class.getResourceAsStream("/assets/meteor-client/LucidaGrande.ttf");
                 OutputStream out = new FileOutputStream(fontFile);
 
                 byte[] bytes = new byte[255];
